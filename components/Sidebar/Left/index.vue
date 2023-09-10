@@ -107,7 +107,8 @@
 </template>
 
 <script setup>
-import { HomeIcon, HashtagIcon, BellIcon, InboxIcon, BookmarkIcon, DocumentTextIcon, UserIcon, DotsCircleHorizontalIcon } from "@heroicons/vue/solid";
+import { HomeIcon } from "@heroicons/vue/solid";
+import { HashtagIcon, BellIcon, InboxIcon, BookmarkIcon, DocumentTextIcon, UserIcon, DotsCircleHorizontalIcon } from "@heroicons/vue/outline";
 const { defaultTransition } = useTailwindConfig();
 </script>
 
